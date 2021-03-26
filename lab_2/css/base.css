@@ -1,0 +1,21 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+body {
+  width: 100%;
+  background-color:#ee869dc7;
+  font-family: 'Montserrat', sans-serif;
+}
+div{
+  border-radius: 15px;
+}
+
+button{
+  width: 20%;
+  height: 50px; 
+  border-radius: 15px;
+  background:#00DEC0; 
+}
+
