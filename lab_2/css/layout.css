@@ -1,0 +1,39 @@
+footer{
+  text-align: center;
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  text-align: center;
+  height: 50px;
+  background-color: #ffffff6e;
+}
+
+#box{
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+}
+
+div.gallery {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  border: 1px solid #ffffff6e;
+  float: left;
+  width: 200px;
+  margin: 5% 1% 0% 1%;
+}
+
+div.gallery:hover {
+  border: 1px solid #ccc;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
