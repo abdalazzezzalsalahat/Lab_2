@@ -8,14 +8,3 @@ body {
   background-color:#ee869dc7;
   font-family: 'Montserrat', sans-serif;
 }
-div{
-  border-radius: 15px;
-}
-
-button{
-  width: 20%;
-  height: 50px; 
-  border-radius: 15px;
-  background:#6af5e2; 
-}
-

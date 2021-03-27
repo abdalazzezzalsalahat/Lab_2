@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <title>The Gallery of Horns 0.2</title>
+    <!-- <link rel="stylesheet" href="./css/reset.css"> -->
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header>
+        <h1>The Gallery of Horns 0.2</h1>
+    </header>
+    <main>
+        <div class="choices">
+            <button id="page-1">Page 1</button>
+            <button id="page-2">Page 2</button>
+            <button id="title">Sort by title</button>
+            <button id="horns">Sort by horns</button>
+        </div>
+        <div class="dd">
+            <select id="drop-dwn">
+                <option value="">Filter results</option>
+            </select>
+        </div>
+        <div id="box-one" class="flx-box"></div>
+        <div id="box-two" class="flx-box"></div>
+    </main>
+    <template id="template" type="text/x-tmpl-mustache">
+        <div class="img-tmplt gallery">
+          <h2>{{title}}</h2>
+          <img src="{{image_url}}" alt="{{image_url}}">
+          <p>{{description}}</p>
+          <h4 id="num-of-horns">Horns: {{horns}}</h4>
+        </div>
+    </template>
+    <footer class="footer">
+        <span>&copy; 2021 Code Fellows</span>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="https://unpkg.com/mustache@latest"></script>
+    <script type="text/javascript" src="./js/js.js"></script>
+</body>
+
+</html>

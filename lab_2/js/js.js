@@ -1,5 +1,5 @@
 function Img(pic) {
-  this.image_url = pic.image_url;
+  this.img_src = pic.img_src;
   this.title = pic.title;
   this.dsc = pic.description;
   this.keyword = pic.keyword;
@@ -8,9 +8,9 @@ function Img(pic) {
 let kywrds = [];
 Img.prototype.render = function() {
   $('#box').append(
-    `<div class="${this.keyword}  gallery">
+    `<div class="${this.keyword} gallery">
         <h4>${this.title}</h4>
-        <img src="${this.image_url}">
+        <img src="${this.img_src}">
         <p class= "desc">${this.dsc}</p>
     </div>`);
   if (kywrds.includes(this.keyword) !== true) {
