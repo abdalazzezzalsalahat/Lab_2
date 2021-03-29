@@ -26,7 +26,7 @@ ImgsOne.readJson = () => {
     method: 'get',
     dataType: 'json'
   };
-  $.ajax('data/page-1.json', ajaxSettings)
+  $.ajax('../../data/page-1.json', ajaxSettings)
     .then(data => {
       data.forEach(elmnt => {
         optValsOne.push(elmnt.keyword);
@@ -81,7 +81,7 @@ ImgsTwo.readJson2 = () => {
     method: 'get',
     dataType: 'json'
   };
-  $.ajax('data/page-2.json', ajaxSettings)
+  $.ajax('../../data/page-2.json', ajaxSettings)
     .then(data => {
       data.forEach(elmnt => {
         optValsTwo.push(elmnt.keyword);
